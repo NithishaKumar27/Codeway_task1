@@ -1,0 +1,117 @@
+body{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #02d5ff;
+}
+h2{
+    background-color: #02d5ff;
+    color: rgb(27, 29, 32);
+    font-size: xx-large;
+}
+#abt{
+    
+    background-image:  linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(robinson-169hero-portfolio-shutterstock.webp);
+         background-color: #cb2985;
+    background-position:center;
+    background-size:cover;
+    color: rgb(58, 247, 0);
+    font-size: 25px;
+    text-align: center;
+    padding: 60px;
+
+}
+.tag{
+    
+    margin-top:60px;
+}
+
+nav{
+    background-color: rgb(12, 161, 210);
+    padding: 10px 0px;
+    width: 100%;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li :hover{
+    background-color: greenyellow;
+    
+} 
+section{
+    padding: 50px;
+}
+
+.about{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 25px;
+    color: rgb(20, 124, 214);
+}
+
+#project{
+    margin: 20px 0;
+}
+.lcr{
+   
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    color: rgb(29, 236, 236);
+}
+.lcr p{
+    background-color: #1b2d31;
+}
+
+.skill{
+    background-color: rgb(49, 34, 148);
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(14, 248, 10);
+}
+
+#contact{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(108, 63, 165);
+}
+#resume{
+    background-color: rgb(39, 31, 39);
+    font-size: 25px;
+    text-align: center;
+    color: rgb(40, 143, 233);
+}
+#resume a{
+    
+    color: rgb(10, 245, 253);
+
+}
+footer{
+    background-color: rgb(34, 240, 251);
+    color: #161ef8;
+    text-align: center;
+    padding:20px;
+}
